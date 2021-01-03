@@ -1,14 +1,44 @@
 
-# List of selected packages for tidytuesday learning:
+# links for learning:
 
-# 1. Loading data
+# https://www.tidyverse.org/learn/
+# official repo: https://github.com/rfordatascience/tidytuesday
+# https://github.com/jonthegeek/tidytuesday
 
-# 
-# tidyverse / readr
+
+
+### 1. Loading data
+
+
+# tidytueaday data:
+# tuesdata <- tidytuesdayR::tt_load('yyyy-mm-dd')
+# tuesdata <- tidytuesdayR::tt_load(yyyy, week = ##)
+# data <- tuesdata$data_name
+
+# Or read in the data manually
+# data <- readr::read_csv('url')
+
+
+# tidyverse: dplyr, tidyr, readr, ggplot2, purrr, tibble, stringr, forcats
 # vroom
 
 
+# 
 
-# links:
-# official repo: https://github.com/rfordatascience/tidytuesday
-# https://github.com/jonthegeek/tidytuesday
+
+### List of selected packages for tidytuesday:
+
+# eda + wrangling:
+# tidyverse, lubridate, EpiDisolay
+# janitor
+
+
+# graphic / Viz:
+# ggcharts, gganimate, cowplot, patchwork
+
+
+# stats:
+# broom, moderndive
+
+
+
